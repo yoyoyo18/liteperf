@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "liteperf",
+  "version": "${version}
+  ",
+  "name": "LitePerf",
+  "description": "Lightweight high-performance optimization mod for Minecraft 1.26.2 (client-only).",
+  "authors": ["yoyoyo18"],
+  "contact": { "homepage": "https://github.com/yoyoyo18/liteperf" },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.yoyoyo18.liteperf.LitePerfMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric": ">=0.149.1+26.1.2"
+  }
+}

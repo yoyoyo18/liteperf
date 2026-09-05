@@ -1,0 +1,21 @@
+# LitePerf default configuration (TOML-ish)
+# All experimental features are disabled by default. Change values in the config/ folder in the run directory.
+
+[general]
+enabled = true
+modId = "liteperf"
+
+[render]
+asyncChunkMeshUpload = true
+aggressiveCulling = true
+instancing = false # experimental
+frameGeneration = false # experimental - motion-vector temporal reprojection (may produce artifacts)
+
+[tick]
+entityTickThrottling = true
+blockEntityTickThrottling = true
+throttleDistance = 64.0
+
+[profiling]
+enabled = false
+intervalSeconds = 10
